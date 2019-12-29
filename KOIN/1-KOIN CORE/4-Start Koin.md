@@ -28,7 +28,7 @@ startKoin {
 }
 ```
 
-一旦 `startKoin` 被调用，Koin 将读取你所有声明的模块和声明。当你执行任意 `get()` 或`inject()` 方法时，Koin 将会检索出你所需的实例对象。
+一旦 `startKoin` 被调用，Koin 将读取你所有声明的模块和声明。当你执行任意 `get()` 或`inject()` 方法时，Koin 将会获取你所需的实例对象。
 
 你的 Koin 容器可以有几个选项:
 

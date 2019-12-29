@@ -1,5 +1,5 @@
 ---
-title: KOIN系列之在Android中检索对象（十三）
+title: KOIN系列之在Android中获取对象（十三）
 tags:
   - koin
 categories:
@@ -8,7 +8,7 @@ categories:
 
 ### 前言
 
-一旦你声明了一些模块并且你已经启动了 Koin ，那如何在你的 Android 下的 Activity、Fragment 或 Service 中检索你的实例?
+一旦你声明了一些模块并且你已经启动了 Koin ，那如何在你的 Android 下的 Activity、Fragment 或 Service 中获取你的实例?
 
 ### 将 Activity Fragment 及 Service 转换为 KoinComponent
 
@@ -50,7 +50,7 @@ class DetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // 检索出Presenter对象
+        // 获取Presenter对象
         val presenter : Presenter = get()
     }
 ```

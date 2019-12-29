@@ -8,7 +8,7 @@ categories:
 
 ### 前言
 
-Koin 是一个用于帮助描述模块和声明的 DSL，也是解析声明的一个容器。我们现在需要的是一个 API 来检索容器外部的实例。这就是 Koin 组件的目的。
+Koin 是一个用于帮助描述模块和声明的 DSL，也是解析声明的一个容器。我们现在需要的是一个 API 来获取容器外部的实例。这就是 Koin 组件的目的。
 
 ### 创建一个 Koin 组件
 
@@ -41,7 +41,7 @@ fun main(vararg args : String){
 }
 ```
 
-如何编写 `MyComponent` 并从 Koin 容器中检索实例？我们看下面的例子。
+如何编写 `MyComponent` 并从 Koin 容器中获取实例？我们看下面的例子。
 
 使用 `get()` 和 `by inject()` 注入 MyService 实例。
 
@@ -65,9 +65,9 @@ class MyComponent : KoinComponent {
 - `get()` — 从 Koin 容器中立即获取实例
 - getProperty()/setProperty() - 获取/设置属性
 
-### 使用 get 和 inject 检索定义
+### 使用 get 和 inject 获取定义
 
-Koin 提供了两种从 Koin 容器中检索实例的方法:
+Koin 提供了两种从 Koin 容器中获取实例的方法:
 
 - `val t: t by inject()` - 延迟计算（其值只在首次访问时计算）
 - `val t: t = get()`  - 立刻获取实例
@@ -103,7 +103,7 @@ class ComponentB(val componentA: ComponentA)
 通过名称解析定义：
 
 ```kotiln
-// 从给定的module中检索
+// 从给定的module中获取
 val a = get<ComponentA>(named("A"))
 ```
 
