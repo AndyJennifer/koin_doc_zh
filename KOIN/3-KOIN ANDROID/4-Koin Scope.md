@@ -1,5 +1,5 @@
 ---
-title: KOIN系列之在Android中使用scope（十四）
+title: KOIN系列之在Android中使用scope（十七）
 tags:
   - koin
 categories:

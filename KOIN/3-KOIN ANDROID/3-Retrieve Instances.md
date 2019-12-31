@@ -1,5 +1,5 @@
 ---
-title: KOIN系列之在Android中获取对象（十三）
+title: KOIN系列之在Android中获取对象（十六）
 tags:
   - koin
 categories:

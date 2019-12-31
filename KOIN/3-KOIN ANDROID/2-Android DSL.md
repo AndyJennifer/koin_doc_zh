@@ -1,4 +1,10 @@
-# 从 module 中获取 Android context
+---
+title: KOIN系列之从 module 中获取 Android context（十五）
+tags:
+  - koin
+categories:
+  - koin
+---
 
 在 koin DSL 中增加了如下关键字：
 
