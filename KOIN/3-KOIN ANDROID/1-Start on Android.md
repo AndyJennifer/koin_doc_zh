@@ -6,8 +6,6 @@ categories:
   - koin
 ---
 
-### 前言
-
 `Koin-Android` 项目致力于为 Android 领域提供 Koin 支持。
 
 ### 在你的 Application 调用 startKoin()

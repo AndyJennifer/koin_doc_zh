@@ -6,7 +6,6 @@ categories:
   - koin
 ---
 
-### 前言
 
 `koin-android-scope` 项目致力于将 Android scope 特性引入到现有的 Scope API 中。
 

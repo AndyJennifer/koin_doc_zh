@@ -6,8 +6,6 @@ categories:
   - koin
 ---
 
-### 前言
-
 一旦你声明了一些模块并且你已经启动了 Koin ，那如何在你的 Android 下的 Activity、Fragment 或 Service 中获取你的实例?
 
 ### 将 Activity Fragment 及 Service 转换为 KoinComponent

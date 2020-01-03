@@ -1,12 +1,11 @@
 ---
-title: KOIN系列之Android中ViewModel-DSL（十八）
+title: KOIN系列之Android中使用ViewModel（十八）
 tags:
   - koin
 categories:
   - koin
 ---
 
-### 前言
 
 `koin-android-viewmodel` 项目致力于引入 Android Architecture 中的 ViewModel 特性。
 
