@@ -4,6 +4,8 @@
 
 Koin_doc_zh 是对 [Koin](https://github.com/InsertKoinIO/koin) 项目 [Koin使用文档](https://doc.insert-koin.io/#/setup/index) 的中文翻译。
 
+- [在线阅读](https://andyjennifer.com/AndyJennifer.github.io-Koin_Doc_Zh)
+
 ## Koin 是什么
 
 KOIN[](https://insert-koin.io/) 是一个面向 Kotlin 开发人员的实用的轻量级依赖注入框架。用纯 Kotlin 编写，只使用函数解析:没有代理，没有代码生成，没有反射。
